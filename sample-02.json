@@ -1,0 +1,34 @@
+{
+  "1": {
+    "title":"Applied Physics, BA, BS",
+    "school":"School of Natural Sciences &amp; Mathematics",
+    "delivery":"traditional",
+    "tags":"physics science math information chemistry astronomy",
+    "type":"Undergraduate",
+    "link":"/sciences-math/physics.html"
+   },
+  "2": {
+    "title":"Biology, BA, BS",
+    "school":"School of Natural Sciences &amp; Mathematics",
+    "delivery":"traditional",
+    "tags":"biology science animal DNA",
+    "type":"Undergraduate",
+    "link":"/sciences-math/biology.html"
+   },
+  "3": {
+    "title":"Business Studies, BA, BS",
+    "school":"School of Business",
+    "delivery":"hybrid",
+    "tags":"&nbsp;",
+    "type":"Undergraduate",
+    "link":"/business/business-studies-program.html"
+   },
+  "4": {
+    "title":"American Studies",
+    "school":"School of Arts &amp; Humanities",
+    "delivery":"&nbsp;",
+    "tags":"&nbsp;",
+    "type":"Graduate",
+    "link":"/graduate/american-studies.html"
+   }
+ }

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Areas of Study</title>
+</head>
+
+<body>
+    <!-- sample initial html markup -->
+    <div id="initialMarkup">
+        <h1>Initial markup would go here.</h1>
+        <ul>
+            <li>Something 1</li>
+            <li>Something 2</li>
+            <li>Something 3</li>
+            <li>Something 4</li>
+            <li>Something 5</li>
+        </ul>
+    </div>
+
+    <div id="areasOfStudy" v-if="modernSupport">
+        <form class="form-inline">
+            <div class="form-group">
+                <label for="studyName">Area of Study:</label>
+                <input id="studyName" name="studyName" class="form-control" v-model="message">
+            </div>
+            <div class="form-group">
+                <label for="studyType">Type:</label>
+                <select id="studyType" name="studyType" class="form-control" v-model="studyType">
+                    <option value="all">All</option>
+                    <option value="undergraduate">Undergraduate Programs</option>
+                    <option value="graduate">Graduate Programs</option>
+                    <option value="dualDegree">Dual-Degrees</option>
+                    <option value="minor">Minors</option>
+                    <option value="certificate">Certificates</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="studyDelivery">Format:</label>
+                <select id="studyDelivery" name="studyDelivery" class="form-control" v-model="studyDelivery">
+                    <option value="all">All</option>
+                    <option value="traditional">Traditional</option>
+                    <option value="hybrid">Hybrid</option>
+                    <option value="online">Online</option>
+                </select>
+            </div>
+        </form>
+        <div v-if="!filteredAreasStudy.length">No results.</div>
+        <ol>
+            <li v-for="(studyArea, i) in orderBy(filteredAreasStudy, 'title')">
+                <h4><a v-bind:href="studyArea.link">{{ studyArea.title }}</a></h4>
+                <p v-html="studyArea.school"></p>
+                <p>{{ studyArea.type }}</p>
+                <p>{{ studyArea.delivery }}</p>
+            </li>
+        </ol>
+    </div>
+</body>
+<script src="https://unpkg.com/vue"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue2-filters/dist/vue2-filters.min.js"></script>
+<script src="areas-of-study-app.js"></script>
+
+</html>

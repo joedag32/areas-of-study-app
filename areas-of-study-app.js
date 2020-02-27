@@ -36,10 +36,21 @@ var areasOfStudyApp = new Vue({
         filteredAreasStudy: function () {
             // fiter using the form fields
             let filtered = this.studyAreas;
+
             if (this.message) {
-                filtered = this.studyAreas.filter(
-                    m => m.title.toLowerCase().indexOf(this.message) > -1 || m.tags.toLowerCase().indexOf(this.message) > -1 || m.school.toLowerCase().indexOf(this.message) > -1
-                );
+                // break message into array split on spaces
+                let messageArray = this.message.split(' ');
+                filtered = this.studyAreas.filter(function(m) {
+                    for (let i = 0; i < messageArray.length; i++) {
+                        // only compare if the word typed is more than 2 characters
+                        if (messageArray[i].length > 2) {
+                            console.log("title: " + m.title + " arrayValue: " + messageArray[i]);
+                            if (m.title.toLowerCase().indexOf(messageArray[i]) > -1 || m.tags.toLowerCase().indexOf(this.message) > -1 || m.school.toLowerCase().indexOf(this.message) > -1) {
+                                return true;
+                            }
+                        }
+                    }
+                });
             }
             if (this.studyType != 'all') {
                 filtered = filtered.filter(

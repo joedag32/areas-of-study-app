@@ -47,14 +47,18 @@
             </div>
         </form>
         <div v-if="!filteredAreasStudy.length">No results.</div>
-        <ol>
-            <li v-for="(studyArea, i) in orderBy(filteredAreasStudy, 'title')">
-                <h4><a v-bind:href="studyArea.link">{{ studyArea.title }}</a></h4>
-                <p v-html="studyArea.school"></p>
-                <p>{{ studyArea.type }}</p>
-                <p>{{ studyArea.delivery }}</p>
-            </li>
-        </ol>
+        <div class="row">
+            <div class="col-md-4" v-for="(studyArea, i) in orderBy(filteredAreasStudy, 'title')">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <h4><a v-bind:href="studyArea.link">{{ studyArea.title }}</a></h4>
+                        <p v-html="studyArea.school"></p>
+                        <p>{{ studyArea.type }}</p>
+                        <p>{{ studyArea.delivery }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 <script src="https://unpkg.com/vue"></script>

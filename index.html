@@ -47,8 +47,8 @@
             </div>
         </form>
         <div v-if="!filteredAreasStudy.length">No results.</div>
-        <div class="row">
-            <div class="col-md-4" v-for="(studyArea, i) in orderBy(filteredAreasStudy, 'title')">
+        <div class="row" v-for="i in Math.ceil(filteredAreasStudy.length / 3)">
+            <div class="col-md-4" v-for="(studyArea, i) in orderBy(filteredAreasStudy, 'title').slice((i-1) * 3, i * 3)">
                 <div class="panel panel-default">
                     <div class="panel-body">
                         <h4><a v-bind:href="studyArea.link">{{ studyArea.title }}</a></h4>

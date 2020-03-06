@@ -3,10 +3,11 @@ var areasOfStudyApp = new Vue({
     el: '#areasOfStudy',
     data: {
         modernSupport: false,
-        studyAreas: [],                                                               
+        studyAreas: [],
         message: "",
         studyType: "all",
-        studyDelivery: "all"
+        studyDelivery: "all",
+        schoolAcronym: ""
     },
     created() {
         // Load JSON data
@@ -30,7 +31,27 @@ var areasOfStudyApp = new Vue({
             .catch((error) => {
                 console.error('Error:', error);
                 this.modernSupport = false;
-        });
+            });
+    },
+    methods: {
+        shortenSchoolName: function (school) {
+            switch (school) {
+                case 'School of Arts &amp; Humanities':
+                    return 'arhu';
+                case 'School of Business':
+                    return 'busn';
+                case 'School of Education':
+                    return 'educ';
+                case 'School of General Studies':
+                    return 'gens';
+                case 'School of Health Sciences':
+                    return 'hlth';
+                case 'School of Natural Sciences &amp; Mathematics':
+                    return 'nams';
+                case 'School of Social &amp; Behavioral Sciences':
+                    return 'sobl';
+            }
+        }
     },
     computed: {
         filteredAreasStudy: function () {
@@ -40,7 +61,7 @@ var areasOfStudyApp = new Vue({
             if (this.message) {
                 // break message into array split on spaces
                 let messageArray = this.message.split(' ');
-                filtered = this.studyAreas.filter(function(m) {
+                filtered = this.studyAreas.filter(function (m) {
                     for (let i = 0; i < messageArray.length; i++) {
                         // only compare if the word typed is more than 2 characters
                         if (messageArray[i].length > 2) {

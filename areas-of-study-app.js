@@ -10,7 +10,6 @@ var areasOfStudyApp = new Vue({
         schoolAcronym: ""
     },
     created() {
-        document.getElementById('areasOfStudy').classList.remove('hideApp');
         // Load JSON data
         fetch('sample-02.json').then(response => response.json())
             .then((data) => {

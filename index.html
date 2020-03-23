@@ -34,7 +34,7 @@
         </ul>
     </div>
 
-    <div id="areasOfStudy" v-if="modernSupport" class="hideApp">
+    <div id="areasOfStudy" v-if="modernSupport" v-bind:class="{ active: true }">
         <form class="form-inline">
             <div class="form-group">
                 <label for="studyName">Area of Study:</label>

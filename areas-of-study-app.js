@@ -1,5 +1,4 @@
 var areasOfStudyApp = new Vue({
-    mixins: [Vue2Filters.mixin],
     el: '#areasOfStudy',
     data: {
         modernSupport: false,

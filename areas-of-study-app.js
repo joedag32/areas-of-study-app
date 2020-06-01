@@ -1,4 +1,5 @@
 var areasOfStudyApp = new Vue({
+    mixins: [Vue2Filters.mixin],
     el: '#areasOfStudy',
     data: {
         modernSupport: false,
@@ -74,6 +75,11 @@ var areasOfStudyApp = new Vue({
             if (this.studyType != 'all') {
                 filtered = filtered.filter(
                     m => m.type.toLowerCase() === this.studyType.toLowerCase()
+                );
+            }
+            if (this.studyDelivery != 'all') {
+                filtered = filtered.filter(
+                    m => m.delivery.toLowerCase() === this.studyDelivery.toLowerCase()
                 );
             }
             return filtered;

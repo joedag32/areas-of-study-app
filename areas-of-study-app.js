@@ -6,7 +6,6 @@ var areasOfStudyApp = new Vue({
         studyAreas: [],
         message: "",
         studyType: "all",
-        studyDelivery: "all",
         schoolAcronym: ""
     },
     created() {
@@ -75,11 +74,6 @@ var areasOfStudyApp = new Vue({
             if (this.studyType != 'all') {
                 filtered = filtered.filter(
                     m => m.type.toLowerCase() === this.studyType.toLowerCase()
-                );
-            }
-            if (this.studyDelivery != 'all') {
-                filtered = filtered.filter(
-                    m => m.delivery.toLowerCase() === this.studyDelivery.toLowerCase()
                 );
             }
             return filtered;

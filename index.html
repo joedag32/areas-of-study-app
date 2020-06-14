@@ -68,8 +68,8 @@
                     v-bind:class="[studyArea.type.replace(/\s+/g, '-').toLowerCase(), shortenSchoolName(studyArea.school)]"
                     v-bind:key="studyArea.title">
                     <h4><a v-bind:href="studyArea.link">{{ studyArea.title }}</a></h4>
-                    <p v-html="studyArea.school"></p>
-                    <p>{{ studyArea.type }}</p>
+                    <p v-html="studyArea.school" class="study-school"></p>
+                    <p class="study-type">{{ studyArea.type }}</p>
                 </div>
             </transition-group>
         </div>

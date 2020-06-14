@@ -11,12 +11,19 @@
     .list-enter, .list-leave-to {
         opacity: 0;
     }
-    .panel {
-        margin: 10px;
+    #areas-of-study-list div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
-    .panel-body {
+    #areas-of-study-list .study-item {
+        width: 30%;
+        margin: 10px;
+        padding: 10px;
         border: 1px solid #ccc;
-        background-color: #ddd;
+    }
+    #areas-of-study-list .study-item hr, #areas-of-study-list .study-item p {
+        width: 100%;
     }
     </style>
 </head>
@@ -54,19 +61,15 @@
         </form>
         <div v-if="!filteredAreasStudy.length">No results.</div>
         <div id="areasDisplayCount">Showing {{ filteredAreasStudy.length }} of {{ studyAreas.length }} areas of study at Stockton.</div>
-        <div class="row" v-for="i in Math.ceil(filteredAreasStudy.length / 3)">
-            <transition-group name="list" appear>
-                <div class="col-md-4" 
-                    v-for="(studyArea, i) in orderBy(filteredAreasStudy, 'title').slice((i-1) * 3, i * 3)"
+        <div id="areas-of-study-list">
+            <transition-group name="list" tag="div" appear>
+                <div class="study-item" 
+                    v-for="(studyArea, i) in orderBy(filteredAreasStudy, 'title')"
                     v-bind:class="[studyArea.type.replace(/\s+/g, '-').toLowerCase(), shortenSchoolName(studyArea.school)]"
                     v-bind:key="studyArea.title">
-                    <div class="panel panel-default">
-                        <div class="panel-body">
-                            <h4><a v-bind:href="studyArea.link">{{ studyArea.title }}</a></h4>
-                            <p v-html="studyArea.school"></p>
-                            <p>{{ studyArea.type }}</p>
-                        </div>
-                    </div>
+                    <h4><a v-bind:href="studyArea.link">{{ studyArea.title }}</a></h4>
+                    <p v-html="studyArea.school"></p>
+                    <p>{{ studyArea.type }}</p>
                 </div>
             </transition-group>
         </div>

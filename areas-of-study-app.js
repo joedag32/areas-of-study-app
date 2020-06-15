@@ -57,7 +57,8 @@ var areasOfStudyApp = new Vue({
             // fiter using the form fields
             let filtered = this.studyAreas;
 
-            if (this.message) {
+            // only compare if the total message typed is more than 2 characters
+            if (this.message.length > 2) {
                 // break message into array split on spaces
                 let messageArray = this.message.split(' ');
                 filtered = this.studyAreas.filter(function (m) {

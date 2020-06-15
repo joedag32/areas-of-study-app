@@ -67,9 +67,11 @@
                     v-for="(studyArea, i) in orderBy(filteredAreasStudy, 'title')"
                     v-bind:class="[studyArea.type.replace(/\s+/g, '-').toLowerCase(), shortenSchoolName(studyArea.school)]"
                     v-bind:key="studyArea.title">
-                    <h4><a v-bind:href="studyArea.link">{{ studyArea.title }}</a></h4>
-                    <p v-html="studyArea.school" class="study-school"></p>
-                    <p class="study-type">{{ studyArea.type }}</p>
+                    <a v-bind:href="studyArea.link">
+                        <h4>{{ studyArea.title }}</h4>
+                        <p v-html="studyArea.school" class="study-school"></p>
+                        <p class="study-type">{{ studyArea.type }}</p>
+                    </a>
                 </div>
             </transition-group>
         </div>

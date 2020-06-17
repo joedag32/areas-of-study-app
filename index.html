@@ -53,7 +53,7 @@
                     <option value="all">All</option>
                     <option value="undergraduate">Undergraduate Programs</option>
                     <option value="graduate">Graduate Programs</option>
-                    <option value="dualDegree">Dual-Degrees</option>
+                    <option value="dualDegrees">Dual-Degrees</option>
                     <option value="minor">Minors</option>
                     <option value="certificate">Certificates</option>
                 </select>
@@ -70,7 +70,7 @@
                     <a v-bind:href="studyArea.link">
                         <h4>{{ studyArea.title }}</h4>
                         <p v-html="studyArea.school" class="study-school"></p>
-                        <p class="study-type"><span class="label label-default" v-bind:class="[studyArea.type.replace(/\s+/g, '-').toLowerCase(), shortenSchoolName(studyArea.school)]">{{ studyArea.type }}</span></p>
+                        <p class="study-type"><span class="label label-default">{{ studyArea.type }}</span></p>
                     </a>
                 </div>
             </transition-group>

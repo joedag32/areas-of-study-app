@@ -74,7 +74,7 @@ var areasOfStudyApp = new Vue({
             }
             if (this.studyType != 'all') {
                 filtered = filtered.filter(
-                    m => m.type.toLowerCase() === this.studyType.toLowerCase()
+                    m => m.type.toLowerCase().replace(/\s+/g, '') === this.studyType.toLowerCase()
                 );
             }
             return filtered;

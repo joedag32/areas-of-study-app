@@ -6,7 +6,8 @@ var areasOfStudyApp = new Vue({
         studyAreas: [],
         message: "",
         studyType: "all",
-        schoolAcronym: ""
+        schoolAcronym: "",
+        urlParam: ""
     },
     created() {
         // Load JSON data
@@ -26,6 +27,11 @@ var areasOfStudyApp = new Vue({
                     programsArray.push(tempObj);
                 }
                 this.studyAreas = programsArray;
+                // get and set filter if url variable is present
+                this.urlParam = window.location.search.substring(1);
+                if (this.urlParam === 'undergraduate' || this.urlParam === 'graduate') {
+                    this.studyType = this.urlParam;
+                }
             })
             .catch((error) => {
                 console.error('Error:', error);

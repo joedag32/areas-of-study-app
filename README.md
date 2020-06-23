@@ -32,3 +32,7 @@ Please replace the vue.js include with the production link if you're using the C
 
 https://vuejs.org/v2/guide/installation.html
 
+## Styling and CSS
+
+None of the CSS is `index.html` is required. Please edit for whatever works best for your layout/design.
+

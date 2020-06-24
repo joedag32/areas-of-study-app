@@ -32,6 +32,19 @@ Please replace the vue.js include with the production link if you're using the C
 
 https://vuejs.org/v2/guide/installation.html
 
+The messageChange method is used to send an Event to Google Analytics. Please comment out if you are not using Google Analytics or are testing locally.
+
+`messageChange: function (event) {
+    // send event to Google Analytics, remove if you do not wish to track
+    if (this.message.length > 4) {
+        gtag('event', 'keyword', { 
+            'event_category': 'areas_of_study_app', 
+            'event_label': this.message
+        });
+    }
+}
+`
+
 ## Styling and CSS
 
 None of the CSS is `index.html` is required. Please edit for whatever works best for your layout/design.

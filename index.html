@@ -45,7 +45,9 @@
         <form class="clearfix">
             <div class="form-group col-sm-8">
                 <label for="studyName">Area of Study:</label>
-                <input id="studyName" name="studyName" class="form-control" placeholder="What interests you?" v-model="message">
+                <input id="studyName" name="studyName" class="form-control" placeholder="What interests you?" 
+                    v-model="message"
+                    v-on:input="messageChange">
             </div>
             <div class="form-group col-sm-4">
                 <label for="studyType">Type:</label>

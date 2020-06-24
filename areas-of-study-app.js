@@ -56,6 +56,15 @@ var areasOfStudyApp = new Vue({
                 case 'School of Social &amp; Behavioral Sciences':
                     return 'sobl';
             }
+        },
+        messageChange: function (event) {
+            // send event to Google Analytics, remove if you do not wish to track
+            if (this.message.length > 4) {
+                gtag('event', 'keyword', { 
+                    'event_category': 'areas_of_study_app', 
+                    'event_label': this.message
+                });
+            }
         }
     },
     computed: {

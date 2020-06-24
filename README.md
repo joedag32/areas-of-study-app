@@ -34,7 +34,8 @@ https://vuejs.org/v2/guide/installation.html
 
 The messageChange method is used to send an Event to Google Analytics. Please comment out if you are not using Google Analytics or are testing locally.
 
-`messageChange: function (event) {
+```
+messageChange: function (event) {
     // send event to Google Analytics, remove if you do not wish to track
     if (this.message.length > 4) {
         gtag('event', 'keyword', { 
@@ -43,7 +44,7 @@ The messageChange method is used to send an Event to Google Analytics. Please co
         });
     }
 }
-`
+```
 
 ## Styling and CSS
 

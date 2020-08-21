@@ -7,7 +7,8 @@ var areasOfStudyApp = new Vue({
         message: "",
         studyType: "all",
         schoolAcronym: "",
-        urlParam: ""
+        urlParam: "",
+        slim: false
     },
     created() {
         // Load JSON data

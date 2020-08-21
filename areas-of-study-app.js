@@ -38,6 +38,11 @@ var areasOfStudyApp = new Vue({
                 console.error('Error:', error);
                 this.modernSupport = false;
             });
+        const areasOfStudyDiv = document.getElementById('areasOfStudy');
+        const dataTypeValue = areasOfStudyDiv.getAttribute('data-type');
+        if (dataTypeValue == 'slim') {
+            this.slim = false;   
+        }
     },
     methods: {
         shortenSchoolName: function (school) {

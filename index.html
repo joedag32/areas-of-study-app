@@ -11,26 +11,19 @@
     .list-enter, .list-leave-to {
         opacity: 0;
     }
-    #areas-of-study-list div {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    #areas-of-study-list .study-item {
-        width: 30%;
+    .panel {
         margin: 10px;
-        padding: 10px;
-        border: 1px solid #ccc;
     }
-    #areas-of-study-list .study-item hr, #areas-of-study-list .study-item p {
-        width: 100%;
+    .panel-body {
+        border: 1px solid #ccc;
+        background-color: #ddd;
     }
     </style>
 </head>
 
 <body>
     <!-- sample initial html markup -->
-    <div id="initialMarkup">
+    <div id="areas-of-study-app-slim-container">
         <h1>Initial markup would go here.</h1>
         <ul>
             <li>Something 1</li>
@@ -61,8 +54,8 @@
                 </select>
             </div>
         </form>
-        <div id="areasDisplayCount">Showing {{ filteredAreasStudy.length }} of {{ studyAreas.length }} areas of study at Stockton (some degree programs have multiple concentrations).</div>
-        <div id="areas-of-study-list">
+        <div id="areasDisplayCount" v-if="displaySlim">Showing {{ filteredAreasStudy.length }} of {{ studyAreas.length }} areas of study at Stockton (some degree programs have multiple concentrations).</div>
+        <div id="areas-of-study-list" v-if="displaySlim">
             <transition-group name="list" tag="div" appear>
                 <div class="study-item" 
                     v-for="(studyArea, i) in orderBy(filteredAreasStudy, 'title')"

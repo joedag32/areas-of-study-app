@@ -7,8 +7,7 @@ var areasOfStudyApp = new Vue({
         message: "",
         studyType: "all",
         schoolAcronym: "",
-        urlParam: "",
-        slim: false
+        slim: true
     },
     created() {
         // Load JSON data
@@ -28,21 +27,11 @@ var areasOfStudyApp = new Vue({
                     programsArray.push(tempObj);
                 }
                 this.studyAreas = programsArray;
-                // get and set filter if url variable is present
-                this.urlParam = window.location.search.substring(1);
-                if (this.urlParam === 'undergraduate' || this.urlParam === 'graduate') {
-                    this.studyType = this.urlParam;
-                }
             })
             .catch((error) => {
                 console.error('Error:', error);
                 this.modernSupport = false;
             });
-        const areasOfStudyDiv = document.getElementById('areasOfStudy');
-        const dataTypeValue = areasOfStudyDiv.getAttribute('data-type');
-        if (dataTypeValue == 'slim') {
-            this.slim = false;   
-        }
     },
     methods: {
         shortenSchoolName: function (school) {
@@ -66,10 +55,12 @@ var areasOfStudyApp = new Vue({
         messageChange: function (event) {
             // send event to Google Analytics, remove if you do not wish to track
             if (this.message.length > 4) {
+                /*
                 gtag('event', 'keyword', { 
                     'event_category': 'areas_of_study_app', 
                     'event_label': this.message
                 });
+                */
             }
         }
     },
@@ -98,7 +89,15 @@ var areasOfStudyApp = new Vue({
                     m => m.type.toLowerCase().replace(/\s+/g, '') === this.studyType.toLowerCase()
                 );
             }
+            console.log('slim:' + this.slim);
             return filtered;
+        },
+        displaySlim: function () {
+            if (this.slim == true && this.message != '' && this.message.length > 2) {
+                return true;
+            } else {
+                return false;
+            }
         }
     }
 })

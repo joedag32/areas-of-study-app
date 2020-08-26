@@ -32,6 +32,9 @@ var areasOfStudyApp = new Vue({
                 console.error('Error:', error);
                 this.modernSupport = false;
             });
+            if (sessionStorage.message) {
+                this.message = sessionStorage.message;
+            }
     },
     methods: {
         shortenSchoolName: function (school) {
@@ -98,6 +101,11 @@ var areasOfStudyApp = new Vue({
             } else {
                 return false;
             }
+        }
+    },
+    watch: {
+        message(newMessage) {
+            sessionStorage.message = newMessage;
         }
     }
 })

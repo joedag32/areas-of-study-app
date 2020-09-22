@@ -83,7 +83,7 @@ var areasOfStudyApp = new Vue({
                     for (let i = 0; i < messageArray.length; i++) {
                         // only compare if the word typed is more than 2 characters
                         if (messageArray[i].length > 2) {
-                            if (m.title.toLowerCase().indexOf(messageArray[i]) > -1 || m.tags.toLowerCase().indexOf(messageArray[i]) > -1 || m.school.toLowerCase().indexOf(messageArray[i]) > -1) {
+                            if (m.title.toLowerCase().indexOf(messageArray[i].toLowerCase()) > -1 || m.tags.toLowerCase().indexOf(messageArray[i].toLowerCase()) > -1 || m.school.toLowerCase().indexOf(messageArray[i].toLowerCase()) > -1) {
                                 return true;
                             }
                         }

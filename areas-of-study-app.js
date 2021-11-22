@@ -11,7 +11,12 @@ var areasOfStudyApp = new Vue({
     },
     created() {
         // Load JSON data
-        fetch('sample-02.json', {cache: "no-cache"}).then(response => response.json())
+        fetch('sample-01.json', {
+            cache: "no-cache",
+            header: {
+                'Content-Type': 'application/json'
+            }
+        }).then(response => response.json())
             .then((data) => {
                 this.studyAreas = data;
                 this.modernSupport = true;

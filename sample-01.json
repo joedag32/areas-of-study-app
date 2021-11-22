@@ -1,0 +1,814 @@
+{
+    "32": {
+      "school":"School of Social &amp; Behavioral Sciences",
+      "title":"Sociology and Anthropology, BA",
+      "tags":"",
+      "type":"Undergraduate",
+      "link":"/social-behavioral-sciences/sociology-anthropology.html"
+     },
+    "64": {
+      "school":"School of Social &amp; Behavioral Sciences",
+      "title":"Minor in Childhood Studies",
+      "tags":"",
+      "type":"Minor",
+      "link":"/social-behavioral-sciences/childhood-studies.html"
+     },
+    "96": {
+      "school":"School of Social &amp; Behavioral Sciences",
+      "title":"Criminal Justice, BA/MA",
+      "tags":"",
+      "type":"Dual Degrees",
+      "link":"/graduate/criminal-justice.html?tab=DualDegree"
+     },
+    "1": {
+      "school":"School of Arts &amp; Humanities",
+      "title":"Africana Studies, BA",
+      "tags":"",
+      "type":"Undergraduate",
+      "link":"/arts-humanities/africana-studies.html"
+     },
+    "33": {
+      "school":"School of Arts &amp; Humanities",
+      "title":"Studies in the Arts, BA",
+      "tags":"dance music theatre performing arts",
+      "type":"Undergraduate",
+      "link":"/arts-humanities/academic-programs.html"
+     },
+    "65": {
+      "school":"School of Business",
+      "title":"Minor in Computer Information Systems",
+      "tags":"",
+      "type":"Minor",
+      "link":"/business/computer-information-systems.html"
+     },
+    "97": {
+      "school":"School of Natural Sciences &amp; Mathematics",
+      "title":"Environmental Science, BS/PSM",
+      "tags":"",
+      "type":"Dual Degrees",
+      "link":"/graduate/environmental-science.html?tab=DualDegreeOption"
+     },
+    "2": {
+      "school":"School of Natural Sciences &amp; Mathematics",
+      "title":"Applied Physics, BA, BS",
+      "tags":"physics science math information chemistry astronomy",
+      "type":"Undergraduate",
+      "link":"/sciences-math/physics.html"
+     },
+    "34": {
+      "school":"School of Natural Sciences &amp; Mathematics",
+      "title":"Sustainability, BA, BS",
+      "tags":"alternative energy pollution conservation",
+      "type":"Undergraduate",
+      "link":"/sciences-math/sustainability.html"
+     },
+    "66": {
+      "school":"School of Business",
+      "title":"Minor in Computer Science",
+      "tags":"",
+      "type":"Minor",
+      "link":"/business/computer-science.html"
+     },
+    "98": {
+      "school":"School of Arts &amp; Humanities",
+      "title":"Literature, American Studies, BA/MA",
+      "tags":"",
+      "type":"Dual Degrees",
+      "link":"/arts-humanities/dual-degree-litt-maas.html"
+     },
+    "3": {
+      "school":"School of Natural Sciences &amp; Mathematics",
+      "title":"Biochemistry/Molecular Biology, BS",
+      "tags":"pre-med medical",
+      "type":"Undergraduate",
+      "link":"/sciences-math/biochemistry.html"
+     },
+    "35": {
+      "school":"School of Education",
+      "title":"Teacher Education, BA",
+      "tags":"K-12 Elementary Secondary STEAM Early Childhood Social Studies early childhood",
+      "type":"Undergraduate",
+      "link":"/education/education-programs.html"
+     },
+    "67": {
+      "school":"School of General Studies",
+      "title":"Minor in Digital Literacy and Multimedia Design",
+      "tags":"",
+      "type":"Minor",
+      "link":"/general-studies/digital-literacy-and-multimedia-design.html"
+     },
+    "99": {
+      "school":"School of Natural Sciences &amp; Mathematics",
+      "title":"Osteopathic Medicine, BS/DO",
+      "tags":"",
+      "type":"Dual Degrees",
+      "link":"/sciences-math/health-professions.html"
+     },
+    "4": {
+      "school":"School of Natural Sciences &amp; Mathematics",
+      "title":"Biology, BA, BS",
+      "tags":"biology science animal DNA pre vet pre med medical biotechnology",
+      "type":"Undergraduate",
+      "link":"/sciences-math/biology.html"
+     },
+    "36": {
+      "school":"School of Arts &amp; Humanities",
+      "title":"Visual Arts, BA, BFA",
+      "tags":"studio art photography visual communications design painting color fine studio history graphic design illustration painting printmaking sculpture Art Teacher Certification",
+      "type":"Undergraduate",
+      "link":"https://www.stockton.edu/arts-humanities/visual-arts.html"
+     },
+    "68": {
+      "school":"School of General Studies",
+      "title":"Minor in Disability Studies",
+      "tags":"",
+      "type":"Minor",
+      "link":"/general-studies/disability-studies-minor.html"
+     },
+    "100": {
+      "school":"School of Natural Sciences &amp; Mathematics",
+      "title":"Health Professions",
+      "tags":"",
+      "type":"Dual Degrees",
+      "link":"/sciences-math/health-professions.html"
+     },
+    "5": {
+      "school":"School of Business",
+      "title":"Business Studies, BA, BS",
+      "tags":"accounting finance management marketing international administration",
+      "type":"Undergraduate",
+      "link":"/business/business-studies-program.html"
+     },
+    "37": {
+      "school":"School of Arts &amp; Humanities",
+      "title":"American Studies, MA",
+      "tags":"",
+      "type":"Graduate",
+      "link":"/graduate/american-studies.html"
+     },
+    "69": {
+      "school":"School of Social &amp; Behavioral Sciences",
+      "title":"Minor in Economics",
+      "tags":"",
+      "type":"Minor",
+      "link":"/social-behavioral-sciences/economics.html"
+     },
+    "101": {
+      "school":"School of Natural Sciences &amp; Mathematics",
+      "title":"Dental Medicine, BS/DMD",
+      "tags":"Dentistry DMD",
+      "type":"Dual Degrees",
+      "link":"/sciences-math/health-professions.html"
+     },
+    "6": {
+      "school":"School of Natural Sciences &amp; Mathematics",
+      "title":"Chemistry, BA, BS",
+      "tags":"",
+      "type":"Undergraduate",
+      "link":"/sciences-math/chemistry.html"
+     },
+    "38": {
+      "school":"School of Business",
+      "title":"Business Administration, MBA",
+      "tags":"",
+      "type":"Graduate",
+      "link":"/graduate/business-administration.html"
+     },
+    "70": {
+      "school":"School of Natural Sciences &amp; Mathematics",
+      "title":"Minor in Environmental Sciences",
+      "tags":"",
+      "type":"Minor",
+      "link":"/sciences-math/environmental-science.html"
+     },
+    "102": {
+      "school":"School of Natural Sciences &amp; Mathematics",
+      "title":"Pharmacy, BS/DPharm",
+      "tags":"",
+      "type":"Dual Degrees",
+      "link":"/sciences-math/health-professions.html"
+     },
+    "7": {
+      "school":"School of Arts &amp; Humanities",
+      "title":"Communication Studies, BA",
+      "tags":"Public Relations Radio Television film digital visual international",
+      "type":"Undergraduate",
+      "link":"/arts-humanities/communication-studies.html"
+     },
+    "39": {
+      "school":"School of Natural Sciences &amp; Mathematics",
+      "title":"Coastal Zone Management, MS/PSM",
+      "tags":"",
+      "type":"Graduate",
+      "link":"/graduate/coastal-zone-management.html"
+     },
+    "71": {
+      "school":"School of Natural Sciences &amp; Mathematics",
+      "title":"Minor in Geology",
+      "tags":"",
+      "type":"Minor",
+      "link":"/sciences-math/geology.html"
+     },
+    "103": {
+      "school":"School of Health Sciences",
+      "title":"Physician Assistant, BS/MSPA",
+      "tags":"",
+      "type":"Dual Degrees",
+      "link":"/health-sciences/health-science-physician-assistant.html"
+     },
+    "8": {
+      "school":"School of Business",
+      "title":"Computer Information Systems, BS",
+      "tags":"",
+      "type":"Undergraduate",
+      "link":"/business/computer-information-systems.html"
+     },
+    "40": {
+      "school":"School of Health Sciences",
+      "title":"Communication Disorders, MS",
+      "tags":"Speech pathology Audiology speech-language pathology",
+      "type":"Graduate",
+      "link":"/graduate/communication-disorders.html"
+     },
+    "72": {
+      "school":"School of Social &amp; Behavioral Sciences",
+      "title":"Minor in Gerontology",
+      "tags":"",
+      "type":"Minor",
+      "link":"/social-behavioral-sciences/gerontology.html"
+     },
+    "104": {
+      "school":"School of Social &amp; Behavioral Sciences",
+      "title":"Administration and Leadership",
+      "tags":"",
+      "type":"Certificate",
+      "link":"/graduate/criminal-justice.html?tab=certificate&amp;cert=AdministrationandLeadership"
+     },
+    "9": {
+      "school":"School of Business",
+      "title":"Computer Science, BS",
+      "tags":"",
+      "type":"Undergraduate",
+      "link":"/business/computer-science.html"
+     },
+    "41": {
+      "school":"School of Social &amp; Behavioral Sciences",
+      "title":"Counseling, MA",
+      "tags":"",
+      "type":"Graduate",
+      "link":"/graduate/counseling.html"
+     },
+    "73": {
+      "school":"School of General Studies",
+      "title":"Minor in Global Studies",
+      "tags":"",
+      "type":"Minor",
+      "link":"/general-studies/global-studies.html"
+     },
+    "105": {
+      "school":"School of Health Sciences",
+      "title":"Adult Gerontology Primary Care Nurse Practitioner",
+      "tags":"",
+      "type":"Certificate",
+      "link":"/graduate/nursing.html?tab=Certificates"
+     },
+    "10": {
+      "school":"School of Business",
+      "title":"Computing, BA",
+      "tags":"",
+      "type":"Undergraduate",
+      "link":"/business/computer-information-systems.html"
+     },
+    "42": {
+      "school":"School of Social &amp; Behavioral Sciences",
+      "title":"Criminal Justice, MA",
+      "tags":"Administration and Leadership Forensic Psychology Homeland Security Justice Studies Criminology",
+      "type":"Graduate",
+      "link":"/graduate/criminal-justice.html"
+     },
+    "74": {
+      "school":"School of Arts &amp; Humanities",
+      "title":"Minor in Historical Studies",
+      "tags":"",
+      "type":"Minor",
+      "link":"/arts-humanities/historical-studies.html"
+     },
+    "106": {
+      "school":"School of Arts &amp; Humanities",
+      "title":"American Studies",
+      "tags":"",
+      "type":"Certificate",
+      "link":"/graduate/american-studies.html"
+     },
+    "11": {
+      "school":"School of Social &amp; Behavioral Sciences",
+      "title":"Criminal Justice, BA",
+      "tags":"criminal law forensic homeland security criminology justice studies",
+      "type":"Undergraduate",
+      "link":"/social-behavioral-sciences/criminal-justice.html"
+     },
+    "43": {
+      "school":"School of Natural Sciences &amp; Mathematics",
+      "title":"Data Science and Strategic Analytics, MS",
+      "tags":"data",
+      "type":"Graduate",
+      "link":"/graduate/data-science_strategic-analytics.html"
+     },
+    "75": {
+      "school":"School of Health Sciences",
+      "title":"Minor in Holistic Health",
+      "tags":"",
+      "type":"Minor",
+      "link":"/health-sciences/holistic-health-minor.html"
+     },
+    "107": {
+      "school":"School of Natural Sciences &amp; Mathematics",
+      "title":"Coastal Zone Management",
+      "tags":"",
+      "type":"Certificate",
+      "link":"/graduate/coastal-zone-management.html?tab=certificate"
+     },
+    "12": {
+      "school":"School of Social &amp; Behavioral Sciences",
+      "title":"Economics, BA",
+      "tags":"",
+      "type":"Undergraduate",
+      "link":"/social-behavioral-sciences/economics.html"
+     },
+    "44": {
+      "school":"School of Education",
+      "title":"Education, MA",
+      "tags":"Special Education LDTC Reading Alternate Supervisor Principal",
+      "type":"Graduate",
+      "link":"/graduate/education.html"
+     },
+    "76": {
+      "school":"School of General Studies",
+      "title":"Minor in Holocaust and Genocide Studies",
+      "tags":"",
+      "type":"Minor",
+      "link":"/general-studies/holocaust-and-genocide-studies.html"
+     },
+    "108": {
+      "school":"School of Natural Sciences &amp; Mathematics",
+      "title":"Energy",
+      "tags":"",
+      "type":"Certificate",
+      "link":"/sciences-math/energy.html"
+     },
+    "13": {
+      "school":"School of Natural Sciences &amp; Mathematics",
+      "title":"Environmental Science, BS",
+      "tags":"",
+      "type":"Undergraduate",
+      "link":"/sciences-math/environmental-science.html"
+     },
+    "45": {
+      "school":"School of Natural Sciences &amp; Mathematics",
+      "title":"Environmental Science, PSM",
+      "tags":"",
+      "type":"Graduate",
+      "link":"/graduate/environmental-science.html"
+     },
+    "77": {
+      "school":"School of General Studies",
+      "title":"Minor in Jewish Studies",
+      "tags":"",
+      "type":"Minor",
+      "link":"/general-studies/jewish-studies.html"
+     },
+    "109": {
+      "school":"School of Health Sciences",
+      "title":"Family Nurse Practitioner",
+      "tags":"",
+      "type":"Certificate",
+      "link":"/graduate/nursing.html?tab=Certificates"
+     },
+    "14": {
+      "school":"School of Natural Sciences &amp; Mathematics",
+      "title":"Environmental Studies, BA",
+      "tags":"",
+      "type":"Undergraduate",
+      "link":"/sciences-math/environmental-science.html"
+     },
+    "46": {
+      "school":"School of Business",
+      "title":"Healthcare Administration and Leadership, MBA",
+      "tags":"health care admin",
+      "type":"Graduate",
+      "link":"/graduate/mba-healthcare-administration.html"
+     },
+    "78": {
+      "school":"School of Arts &amp; Humanities",
+      "title":"Minor in Languages and Culture Studies",
+      "tags":"",
+      "type":"Minor",
+      "link":"/arts-humanities/languages-culture.html"
+     },
+    "110": {
+      "school":"School of Social &amp; Behavioral Sciences",
+      "title":"Forensic Science",
+      "tags":"",
+      "type":"Certificate",
+      "link":"/social-behavioral-sciences/criminal-justice.html"
+     },
+    "15": {
+      "school":"School of Health Sciences",
+      "title":"Exercise Science, BS",
+      "tags":"Sports Medicinemovement",
+      "type":"Undergraduate",
+      "link":"/health-sciences/exercise-science.html"
+     },
+    "47": {
+      "school":"School of General Studies",
+      "title":"Holocaust and Genocide Studies, MA",
+      "tags":"",
+      "type":"Graduate",
+      "link":"/graduate/holocaust-genocide-studies.html"
+     },
+    "79": {
+      "school":"School of General Studies",
+      "title":"Minor in Latin American and Caribbean Studies",
+      "tags":"",
+      "type":"Minor",
+      "link":"/general-studies/latin-american-and-caribbean-studies.html"
+     },
+    "111": {
+      "school":"School of Social &amp; Behavioral Sciences",
+      "title":"Forensic Psychology",
+      "tags":"",
+      "type":"Certificate",
+      "link":"/graduate/criminal-justice.html?tab=certificate&amp;cert=ForensicPsychologyCertificate"
+     },
+    "16": {
+      "school":"School of Natural Sciences &amp; Mathematics",
+      "title":"Geology, BA, BS",
+      "tags":"",
+      "type":"Undergraduate",
+      "link":"/sciences-math/geology.html"
+     },
+    "48": {
+      "school":"School of Education",
+      "title":"Instructional Technology, MA",
+      "tags":"",
+      "type":"Graduate",
+      "link":"/graduate/instructional-technology.html"
+     },
+    "80": {
+      "school":"School of Arts &amp; Humanities",
+      "title":"Minor in Literature",
+      "tags":"",
+      "type":"Minor",
+      "link":"/arts-humanities/literature.html"
+     },
+    "112": {
+      "school":"School of General Studies",
+      "title":"Genocide Prevention",
+      "tags":"",
+      "type":"Certificate",
+      "link":"/graduate/genocide-prevention-cert.html"
+     },
+    "17": {
+      "school":"School of Health Sciences",
+      "title":"Health Science, BS",
+      "tags":"speech-language pathology speech pathology communication disorders audiology physical therapy occupational therapy OT PT PA Physician assistant",
+      "type":"Undergraduate",
+      "link":"/health-sciences/health-science.html"
+     },
+    "49": {
+      "school":"School of Health Sciences",
+      "title":"Nursing, MSN",
+      "tags":"MSN",
+      "type":"Graduate",
+      "link":"/graduate/nursing.html"
+     },
+    "81": {
+      "school":"School of Natural Sciences &amp; Mathematics",
+      "title":"Minor in Marine Science",
+      "tags":"",
+      "type":"Minor",
+      "link":"/sciences-math/marine-science.html"
+     },
+    "113": {
+      "school":"School of Natural Sciences &amp; Mathematics",
+      "title":"Geographic Information Systems",
+      "tags":"",
+      "type":"Certificate",
+      "link":"/sciences-math/gis.html"
+     },
+    "18": {
+      "school":"School of Arts &amp; Humanities",
+      "title":"Historical Studies, BA",
+      "tags":"",
+      "type":"Undergraduate",
+      "link":"/arts-humanities/historical-studies.html"
+     },
+    "50": {
+      "school":"School of Health Sciences",
+      "title":"Nursing, DNP",
+      "tags":"",
+      "type":"Graduate",
+      "link":"/graduate/nursing.html?tab=DNPProgram"
+     },
+    "82": {
+      "school":"School of Natural Sciences &amp; Mathematics",
+      "title":"Minor in Mathematics",
+      "tags":"",
+      "type":"Minor",
+      "link":"/sciences-math/mathematics.html"
+     },
+    "114": {
+      "school":"School of Social &amp; Behavioral Sciences",
+      "title":"Gerontology",
+      "tags":"",
+      "type":"Certificate",
+      "link":"/social-behavioral-sciences/gerontology.html"
+     },
+    "19": {
+      "school":"School of Business",
+      "title":"Hospitality, Tourism and Event Management, BS",
+      "tags":"",
+      "type":"Undergraduate",
+      "link":"/business/hospitality-tourism-program.html"
+     },
+    "51": {
+      "school":"School of Health Sciences",
+      "title":"Occupational Therapy, MS",
+      "tags":"OT",
+      "type":"Graduate",
+      "link":"/graduate/occupational-therapy.html"
+     },
+    "83": {
+      "school":"School of General Studies",
+      "title":"Minor in Migration Studies",
+      "tags":"",
+      "type":"Minor",
+      "link":"/general-studies/migration-studies.html"
+     },
+    "115": {
+      "school":"School of Social &amp; Behavioral Sciences",
+      "title":"Homeland Security",
+      "tags":"",
+      "type":"Certificate",
+      "link":"/graduate/criminal-justice.html?tab=certificate&amp;cert=HomelandSecurityCertificate"
+     },
+    "20": {
+      "school":"School of Arts &amp; Humanities",
+      "title":"Languages and Culture Studies, BA",
+      "tags":"French Classics Spanish World Languages",
+      "type":"Undergraduate",
+      "link":"/arts-humanities/languages-culture.html"
+     },
+    "52": {
+      "school":"School of Education",
+      "title":"Organizational Leadership, EdD",
+      "tags":"",
+      "type":"Graduate",
+      "link":"/graduate/ed-d-organizational-leadership.html"
+     },
+    "84": {
+      "school":"School of Arts &amp; Humanities",
+      "title":"Minor in Philosophy and Religion",
+      "tags":"",
+      "type":"Minor",
+      "link":"/arts-humanities/philosophy-religion.html"
+     },
+    "116": {
+      "school":"School of Education",
+      "title":"Training and Development",
+      "tags":"",
+      "type":"Certificate",
+      "link":"/graduate/training-and-development-cert.html"
+     },
+    "21": {
+      "school":"School of General Studies",
+      "title":"Liberal Studies, BA",
+      "tags":"LIBA Community Leadership Civic Engagement Personal",
+      "type":"Undergraduate",
+      "link":"/general-studies/liberal-studies.html"
+     },
+    "53": {
+      "school":"School of Health Sciences",
+      "title":"Physical Therapy, DPT",
+      "tags":"PT",
+      "type":"Graduate",
+      "link":"/graduate/physical-therapy.html"
+     },
+    "85": {
+      "school":"School of Social &amp; Behavioral Sciences",
+      "title":"Minor in Political Science",
+      "tags":"",
+      "type":"Minor",
+      "link":"/social-behavioral-sciences/political-science.html"
+     },
+    "22": {
+      "school":"School of Arts &amp; Humanities",
+      "title":"Literature, BA",
+      "tags":"Literary Studies, Creative Writing Theatre-English",
+      "type":"Undergraduate",
+      "link":"/arts-humanities/literature.html"
+     },
+    "54": {
+      "school":"School of Social &amp; Behavioral Sciences",
+      "title":"Social Work, MSW",
+      "tags":"MSW",
+      "type":"Graduate",
+      "link":"/graduate/socialwork.html"
+     },
+    "86": {
+      "school":"School of Health Sciences",
+      "title":"Minor in Public Health",
+      "tags":"",
+      "type":"Minor",
+      "link":"/health-sciences/public-health-minor.html"
+     },
+    "23": {
+      "school":"School of Natural Sciences &amp; Mathematics",
+      "title":"Marine Science, BA, BS",
+      "tags":"",
+      "type":"Undergraduate",
+      "link":"/sciences-math/marine-science.html"
+     },
+    "55": {
+      "school":"School of Arts &amp; Humanities",
+      "title":"Minor in Africana Studies",
+      "tags":"",
+      "type":"Minor",
+      "link":"/arts-humanities/africana-studies.html"
+     },
+    "87": {
+      "school":"School of Social &amp; Behavioral Sciences",
+      "title":"Minor in Sociology",
+      "tags":"",
+      "type":"Minor",
+      "link":"/social-behavioral-sciences/sociology-anthropology.html"
+     },
+    "24": {
+      "school":"School of Natural Sciences &amp; Mathematics",
+      "title":"Mathematics, BA, BS",
+      "tags":"",
+      "type":"Undergraduate",
+      "link":"/sciences-math/mathematics.html"
+     },
+    "56": {
+      "school":"School of Social &amp; Behavioral Sciences",
+      "title":"Minor in Anthropology",
+      "tags":"",
+      "type":"Minor",
+      "link":"/social-behavioral-sciences/sociology-anthropology.html"
+     },
+    "88": {
+      "school":"School of Arts &amp; Humanities",
+      "title":"Minor in Studies in the Arts",
+      "tags":"",
+      "type":"Minor",
+      "link":"/arts-humanities/performing-arts.html"
+     },
+    "25": {
+      "school":"School of Health Sciences",
+      "title":"Nursing, BSN",
+      "tags":"",
+      "type":"Undergraduate",
+      "link":"/health-sciences/nursing-bsn.html"
+     },
+    "57": {
+      "school":"School of Natural Sciences &amp; Mathematics",
+      "title":"Minor in Applied Physics",
+      "tags":"",
+      "type":"Minor",
+      "link":"/sciences-math/physics.html"
+     },
+    "89": {
+      "school":"School of Arts &amp; Humanities",
+      "title":"Minor in Studio Art",
+      "tags":"",
+      "type":"Minor",
+      "link":"/arts-humanities/visual-arts.html"
+     },
+    "26": {
+      "school":"School of Arts &amp; Humanities",
+      "title":"Performing Arts, BA",
+      "tags":"Dance Dance Studio Operatons Pre-Movement Studies Theatre Theatre Design Theatre Administration Music Pre-Physical Therapy Vocal",
+      "type":"Undergraduate",
+      "link":"https://www.stockton.edu/arts-humanities/performing-arts.html"
+     },
+    "58": {
+      "school":"School of Arts &amp; Humanities",
+      "title":"Minor in Art History",
+      "tags":"",
+      "type":"Minor",
+      "link":"/arts-humanities/visual-arts.html"
+     },
+    "90": {
+      "school":"School of Natural Sciences &amp; Mathematics",
+      "title":"Minor in Sustainability",
+      "tags":"",
+      "type":"Minor",
+      "link":"/sciences-math/sustainability.html"
+     },
+    "27": {
+      "school":"School of Arts &amp; Humanities",
+      "title":"Philosophy and Religion, BA",
+      "tags":"",
+      "type":"Undergraduate",
+      "link":"/arts-humanities/philosophy-religion.html"
+     },
+    "59": {
+      "school":"School of Social &amp; Behavioral Sciences",
+      "title":"Minor in Behavioral Neuroscience",
+      "tags":"",
+      "type":"Minor",
+      "link":"/social-behavioral-sciences/behavioral-neuroscience.html"
+     },
+    "91": {
+      "school":"School of Social &amp; Behavioral Sciences",
+      "title":"Minor in Victimology and Victim Services",
+      "tags":"",
+      "type":"Minor",
+      "link":"/social-behavioral-sciences/victimology.html"
+     },
+    "28": {
+      "school":"School of Social &amp; Behavioral Sciences",
+      "title":"Political Science, BA",
+      "tags":"legal law international affairs",
+      "type":"Undergraduate",
+      "link":"/social-behavioral-sciences/political-science.html"
+     },
+    "60": {
+      "school":"School of Natural Sciences &amp; Mathematics",
+      "title":"Minor in Biology",
+      "tags":"",
+      "type":"Minor",
+      "link":"/sciences-math/biology.html"
+     },
+    "92": {
+      "school":"School of General Studies",
+      "title":"Minor in Women’s, Gender and Sexuality Studies",
+      "tags":"",
+      "type":"Minor",
+      "link":"/general-studies/womens-gender-sexuality-studies.html"
+     },
+    "29": {
+      "school":"School of Social &amp; Behavioral Sciences",
+      "title":"Psychology, BA, BS",
+      "tags":"forensic",
+      "type":"Undergraduate",
+      "link":"/social-behavioral-sciences/psychology.html"
+     },
+    "61": {
+      "school":"School of Business",
+      "title":"Minor in Business Studies",
+      "tags":"",
+      "type":"Minor",
+      "link":"/business/business-studies-program.html"
+     },
+    "93": {
+      "school":"School of General Studies",
+      "title":"Minor in Writing",
+      "tags":"",
+      "type":"Minor",
+      "link":"/general-studies/the-writing-program.html"
+     },
+    "30": {
+      "school":"School of Health Sciences",
+      "title":"Public Health, BS",
+      "tags":"",
+      "type":"Undergraduate",
+      "link":"/health-sciences/public-health.html"
+     },
+    "62": {
+      "school":"School of General Studies",
+      "title":"Minor in Cannabis Studies",
+      "tags":"",
+      "type":"Minor",
+      "link":"/general-studies/cannabis-studies.html"
+     },
+    "94": {
+      "school":"School of Natural Sciences &amp; Mathematics",
+      "title":"Applied Physics, Mathematics, Chemistry and Engineering, BS/BSE",
+      "tags":"",
+      "type":"Dual Degrees",
+      "link":"/sciences-math/eng-dualdegree.html"
+     },
+    "31": {
+      "school":"School of Social &amp; Behavioral Sciences",
+      "title":"Social Work, BS",
+      "tags":"",
+      "type":"Undergraduate",
+      "link":"/social-behavioral-sciences/social-work-bsw/index.html"
+     },
+    "63": {
+      "school":"School of Natural Sciences &amp; Mathematics",
+      "title":"Minor in Chemistry",
+      "tags":"",
+      "type":"Minor",
+      "link":"/sciences-math/chemistry.html"
+     },
+    "95": {
+      "school":"School of Business",
+      "title":"Business Administration, BA, BS/MBA",
+      "tags":"",
+      "type":"Dual Degrees",
+      "link":"/graduate/business-administration.html?tab=DualDegreeOption"
+     }
+   }

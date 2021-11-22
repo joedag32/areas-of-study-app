@@ -61,7 +61,7 @@
                 </select>
             </div>
         </form>
-        <div id="areasDisplayCount">Showing {{ filteredAreasStudy.length }} of {{ studyAreas.length }} areas of study at Stockton (some degree programs have multiple concentrations).</div>
+        <div id="areasDisplayCount">Showing <span v-if="filteredAreasStudy.length == studyAreas.length">all</span><span v-else>{{ filteredAreasStudy.length }}</span> area<span v-if="filteredAreasStudy.length != 1">s</span> of study at Stockton (some degree programs have multiple concentrations).</div>
         <div id="areas-of-study-list">
             <transition-group name="list" tag="div" appear>
                 <div class="study-item" 

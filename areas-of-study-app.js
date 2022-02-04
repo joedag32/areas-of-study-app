@@ -55,7 +55,7 @@ var areasOfStudyApp = new Vue({
                     return 'busn';
                 case 'School of Education':
                     return 'educ';
-                case 'School of General Studies':
+                case 'School of General Studies &amp; Graduate Education':
                     return 'gens';
                 case 'School of Health Sciences':
                     return 'hlth';
